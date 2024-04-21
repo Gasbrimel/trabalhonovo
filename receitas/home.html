@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: rgb(121, 3, 3);
+            display: flex;
+            flex-direction: column;
+            height: 100vh; 
+            margin: 0; 
+        }
+
+        header {
+            height: 60px; 
+            width: 100%;
+            background-color: #333; 
+            color: white; 
+            text-align: center; 
+            line-height: 60px; 
+        }
+
+        main {
+            flex: 1; 
+            padding: 20px; 
+            height: calc(100vh - 160px); 
+            overflow-y: auto; 
+        }
+
+        footer {
+            height: 25px; 
+            width: 100%;
+            background-color: #333; 
+            color: white; 
+            text-align: center; 
+            line-height: 25px; 
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none !important; 
+            color: white;
+        }
+
+        nav ul li a:hover, nav ul li a:visited {
+            color: white !important; 
+        }
+
+        img {
+            width: 700px; 
+            margin-bottom: 50px;
+        }
+
+        .image-text {
+            text-align: center;
+            color: white;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="home.html">Home</a>
+                </li>
+                <li>
+                    <a href="Receitas.html">Receitas</a>
+                </li>
+                <li>
+                    <a href="Cadastro.html">Cadastro</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <img src="./img/logo.png">
+            <div class="image-text"><h1><i>As melhores Receitas da web!</h1></i></div>
+        </div>
+    </main>
+
+    <footer>ⒸDocielo Doceria2024</footer>
+</body>
+</html>
